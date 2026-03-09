@@ -45,6 +45,8 @@ const workspaceAgent = useAgent(async (context, events) => {
       dispatchedPrompt += `\n\n[OUTPUT_FORMAT: ${output_format}]`;
     }
 
+    
+
     // Download input files to shared volume (bypass gRPC 4MB limit)
     const fileAttachments = [];
     if (input_files && input_files.length) {
