@@ -1,7 +1,7 @@
 {
-  "name": "3b8e6458-5fc1-4e63-8563-008ccddaa6db-agent",
+  "name": "workspace-3b8e6458-agent",
   "version": "1.0.0",
-  "description": "Operating model agent for 3b8e6458-5fc1-4e63-8563-008ccddaa6db",
+  "description": "Operating model agent for workspace-3b8e6458",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

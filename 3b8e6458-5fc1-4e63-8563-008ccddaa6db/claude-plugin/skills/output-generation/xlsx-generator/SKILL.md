@@ -7,9 +7,9 @@ description: "Generate Excel workbooks (XLSX) from structured financial data usi
 Generate Excel workbooks from structured financial data using `openpyxl`.
 
 **Before generating, read the design system files:**
-- `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/tokens.md` — colors, typography, number formatting
-- `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/components.md` — table patterns, conditional formatting
-- `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/brand-overrides.json` — firm name, confidentiality notice
+- `/shared/plugins/workspace-3b8e6458/skills/design-system/references/tokens.md` — colors, typography, number formatting
+- `/shared/plugins/workspace-3b8e6458/skills/design-system/references/components.md` — table patterns, conditional formatting
+- `/shared/plugins/workspace-3b8e6458/brand/assets/brand-overrides.json` — firm name, confidentiality notice
 
 ## Process
 
@@ -50,7 +50,7 @@ BORDER_STRONG  = Border(bottom=Side(style='thin', color='B0B8C1'))
 TAB_COLOR      = '2E75B6'  # accent
 
 # ── Logo ──
-LOGO_SRC = "/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/logo.png"
+LOGO_SRC = "/shared/plugins/workspace-3b8e6458/brand/assets/logo.png"
 LOGO_LOCAL = "logo.png"
 if os.path.exists(LOGO_SRC):
     shutil.copy2(LOGO_SRC, LOGO_LOCAL)

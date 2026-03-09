@@ -15,7 +15,7 @@ All generated deliverables MUST follow this design system.
 
 The plugin is mounted at:
 ```
-/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db
+/shared/plugins/workspace-3b8e6458
 ```
 
 All paths below are relative to this root. To read any file, prepend this path.
@@ -26,14 +26,14 @@ Before generating any output with a title page, check for these files:
 
 | File | Path | Purpose |
 |------|------|---------|
-| Logo | `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/logo.png` | Primary logo for title pages and headers |
-| Logo (square) | `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/logo-sq.png` | Square variant for footers and watermarks |
-| Brand overrides | `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/brand-overrides.json` | Firm name, custom colors, confidentiality notice |
+| Logo | `/shared/plugins/workspace-3b8e6458/brand/assets/logo.png` | Primary logo for title pages and headers |
+| Logo (square) | `/shared/plugins/workspace-3b8e6458/brand/assets/logo-sq.png` | Square variant for footers and watermarks |
+| Brand overrides | `/shared/plugins/workspace-3b8e6458/brand/assets/brand-overrides.json` | Firm name, custom colors, confidentiality notice |
 
 To use the logo in a Python generation script, copy it into the workspace first:
 ```python
 import shutil, os
-PLUGIN = "/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db"
+PLUGIN = "/shared/plugins/workspace-3b8e6458"
 logo_src = os.path.join(PLUGIN, "brand/assets/logo.png")
 if os.path.exists(logo_src):
     shutil.copy2(logo_src, "logo.png")
@@ -44,13 +44,13 @@ if os.path.exists(logo_src):
 Read these before generating output:
 
 - **Color palette, typography, spacing, number formatting**:
-  `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/tokens.md`
+  `/shared/plugins/workspace-3b8e6458/skills/design-system/references/tokens.md`
 
 - **Component patterns (tables, KPI cards, title pages, charts, callouts)**:
-  `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/components.md`
+  `/shared/plugins/workspace-3b8e6458/skills/design-system/references/components.md`
 
 - **PE/VC language dictionary, terminology, tone, disclaimers**:
-  `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/language.md`
+  `/shared/plugins/workspace-3b8e6458/skills/design-system/references/language.md`
 
 ## Core Principles
 
@@ -90,8 +90,8 @@ Read these before generating output:
 
 ## Applying the System
 
-1. Read `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/tokens.md` for exact color and typography values
-2. Read `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/components.md` for the component being generated
-3. Read `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/language.md` for terminology and tone
-4. Read `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/brand-overrides.json` for firm name and confidentiality notice
-5. Copy `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/logo.png` into the workspace and include it on the title page
+1. Read `/shared/plugins/workspace-3b8e6458/skills/design-system/references/tokens.md` for exact color and typography values
+2. Read `/shared/plugins/workspace-3b8e6458/skills/design-system/references/components.md` for the component being generated
+3. Read `/shared/plugins/workspace-3b8e6458/skills/design-system/references/language.md` for terminology and tone
+4. Read `/shared/plugins/workspace-3b8e6458/brand/assets/brand-overrides.json` for firm name and confidentiality notice
+5. Copy `/shared/plugins/workspace-3b8e6458/brand/assets/logo.png` into the workspace and include it on the title page

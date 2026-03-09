@@ -3,7 +3,7 @@ const fs = require("fs");
 const { execSync } = require("child_process");
 const { useAgent } = require("@nestbox-ai/functions");
 
-const PLUGIN_NAME = "3b8e6458-5fc1-4e63-8563-008ccddaa6db";
+const PLUGIN_NAME = "workspace-3b8e6458";
 const PLUGIN_PATH = path.resolve(__dirname, "..", "claude-plugin");
 const SHARED_PLUGIN_PATH = `/shared/plugins/${PLUGIN_NAME}`;
 

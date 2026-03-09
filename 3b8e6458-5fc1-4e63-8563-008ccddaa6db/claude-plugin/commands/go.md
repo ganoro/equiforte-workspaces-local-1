@@ -131,11 +131,11 @@ Before executing any command, follow these rules:
 
 When the routed command produces a file deliverable, read these design references BEFORE generating:
 
-1. `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/tokens.md` — colors, typography, number formatting
-2. `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/components.md` — title page, table, KPI card, chart patterns
-3. `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/language.md` — PE/VC terminology, tone, disclaimers
-4. `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/brand-overrides.json` — firm name, confidentiality notice
-5. Copy logo into workspace: `cp /shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/logo.png ./logo.png 2>/dev/null || true`
+1. `/shared/plugins/workspace-3b8e6458/skills/design-system/references/tokens.md` — colors, typography, number formatting
+2. `/shared/plugins/workspace-3b8e6458/skills/design-system/references/components.md` — title page, table, KPI card, chart patterns
+3. `/shared/plugins/workspace-3b8e6458/skills/design-system/references/language.md` — PE/VC terminology, tone, disclaimers
+4. `/shared/plugins/workspace-3b8e6458/brand/assets/brand-overrides.json` — firm name, confidentiality notice
+5. Copy logo into workspace: `cp /shared/plugins/workspace-3b8e6458/brand/assets/logo.png ./logo.png 2>/dev/null || true`
 
 ## Critical Rules
 

@@ -1,6 +1,6 @@
 agents:
-  - name: 3b8e6458-5fc1-4e63-8563-008ccddaa6db-agent
-    description: Operating model agent for 3b8e6458-5fc1-4e63-8563-008ccddaa6db
+  - name: workspace-3b8e6458-agent
+    description: Operating model agent for workspace-3b8e6458
     entry: workspaceAgent
     inputSchema:
       type: object

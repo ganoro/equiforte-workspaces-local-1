@@ -7,10 +7,10 @@ description: "Generate PowerPoint presentations (PPTX) from structured report da
 Generate PowerPoint presentations from structured report data using `python-pptx`.
 
 **Before generating, read the design system files:**
-- `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/tokens.md` — colors, typography, spacing
-- `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/components.md` — component patterns
-- `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/language.md` — terminology, disclaimers
-- `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/brand-overrides.json` — firm name, confidentiality notice
+- `/shared/plugins/workspace-3b8e6458/skills/design-system/references/tokens.md` — colors, typography, spacing
+- `/shared/plugins/workspace-3b8e6458/skills/design-system/references/components.md` — component patterns
+- `/shared/plugins/workspace-3b8e6458/skills/design-system/references/language.md` — terminology, disclaimers
+- `/shared/plugins/workspace-3b8e6458/brand/assets/brand-overrides.json` — firm name, confidentiality notice
 
 ## Process
 
@@ -50,7 +50,7 @@ CRITICAL     = RGBColor(0x8B, 0x00, 0x00)
 CHART_SERIES = [PRIMARY, ACCENT, RGBColor(0x5B,0x9B,0xD5), RGBColor(0xA5,0xC8,0xE1), POSITIVE, WARNING]
 
 # ── Logo ──
-LOGO_SRC = "/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/logo.png"
+LOGO_SRC = "/shared/plugins/workspace-3b8e6458/brand/assets/logo.png"
 LOGO_LOCAL = "logo.png"
 if os.path.exists(LOGO_SRC):
     shutil.copy2(LOGO_SRC, LOGO_LOCAL)

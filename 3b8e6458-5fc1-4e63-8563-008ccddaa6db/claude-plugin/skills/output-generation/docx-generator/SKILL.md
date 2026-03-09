@@ -7,12 +7,12 @@ description: "Generate Word documents (DOCX) from structured report data using p
 Generate Word documents from structured report data using `python-docx`.
 
 **Before generating, read the design system files:**
-- `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/tokens.md` — colors, typography, spacing
-- `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/components.md` — component patterns
-- `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/skills/design-system/references/language.md` — terminology, disclaimers
-- `/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/brand-overrides.json` — firm name, confidentiality notice
+- `/shared/plugins/workspace-3b8e6458/skills/design-system/references/tokens.md` — colors, typography, spacing
+- `/shared/plugins/workspace-3b8e6458/skills/design-system/references/components.md` — component patterns
+- `/shared/plugins/workspace-3b8e6458/skills/design-system/references/language.md` — terminology, disclaimers
+- `/shared/plugins/workspace-3b8e6458/brand/assets/brand-overrides.json` — firm name, confidentiality notice
 
-Copy the logo into the workspace: `cp /shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/logo.png ./logo.png 2>/dev/null || true`
+Copy the logo into the workspace: `cp /shared/plugins/workspace-3b8e6458/brand/assets/logo.png ./logo.png 2>/dev/null || true`
 
 ## Process
 
@@ -44,7 +44,7 @@ NEGATIVE    = RGBColor(0xC4, 0x26, 0x1D)
 CRITICAL    = RGBColor(0x8B, 0x00, 0x00)
 
 # ── Logo ──
-LOGO_SRC = "/shared/plugins/3b8e6458-5fc1-4e63-8563-008ccddaa6db/brand/assets/logo.png"
+LOGO_SRC = "/shared/plugins/workspace-3b8e6458/brand/assets/logo.png"
 LOGO_LOCAL = "logo.png"
 if os.path.exists(LOGO_SRC):
     shutil.copy2(LOGO_SRC, LOGO_LOCAL)
