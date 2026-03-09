@@ -36,6 +36,8 @@ const workspaceAgent = useAgent(async (context, events) => {
     terminate_after = true, max_budget_usd, output_format,
   } = context.params;
 
+  console.log(prompt);
+
   try {
     let dispatchedPrompt = session_id
       ? prompt
