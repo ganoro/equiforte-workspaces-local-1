@@ -26,6 +26,8 @@ The user wants to research: **$ARGUMENTS**
 
 ## Instructions
 
+
+
 1. **Initialize the workspace**:
    - Run `mkdir -p output _research` — ALL deliverable files (PDF, DOCX, XLSX, etc.) MUST be saved to the `output/` subdirectory (e.g. `output/report.pdf`). The runtime only collects files from `output/`. Use relative paths only — never write to `/home/user/` or any absolute path.
    - Create `_research/gaps.md` to track known data gaps
