@@ -21,7 +21,7 @@ arguments:
 
 # /ic-memo — Investment Committee Memo
 
-Generate a structured IC memo for an investment decision.
+Generate a structured IC memo for an investment decision. IC = Investment Committee
 
 ## Parameters
 
