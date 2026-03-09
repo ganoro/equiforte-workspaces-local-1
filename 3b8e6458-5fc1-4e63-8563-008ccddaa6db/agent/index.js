@@ -4,7 +4,7 @@ const { execSync } = require("child_process");
 const { useAgent } = require("@nestbox-ai/functions");
 
 const PLUGIN_NAME = "workspace-3b8e6458";
-const PLUGIN_PATH = path.resolve(__dirname, "..", "claude-plugin");
+const PLUGIN_PATH = path.resolve(__dirname, "claude-plugin");
 const SHARED_PLUGIN_PATH = `/shared/plugins/${PLUGIN_NAME}`;
 
 function ensurePluginOnSharedVolume() {
