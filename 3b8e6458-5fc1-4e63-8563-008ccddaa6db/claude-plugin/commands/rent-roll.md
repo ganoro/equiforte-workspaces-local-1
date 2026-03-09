@@ -13,7 +13,7 @@ defaultOutput: Spreadsheet
 icon: IconBuilding
 arguments:
   - name: property
-    description: Property name or address, or "all" for full portfolio (default: current workspace property)
+    description: "Property name or address, or 'all' for full portfolio (default: current workspace property)"
     required: false
 ---
 
